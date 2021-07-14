@@ -1,0 +1,18 @@
+﻿<Window x:Class="_201913709039_YusufErenBelli_MyJpegToBpm.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_201913709039_YusufErenBelli_MyJpegToBpm"
+        mc:Ignorable="d"
+        Title="Jpeg To Bmp" Height="228.092" Width="623.588" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,0,-4">
+
+        <Button Content="Seç" HorizontalAlignment="Left" Margin="339,23,0,0" VerticalAlignment="Top" Width="94" AutomationProperties.Name="btnDonustur" Height="36" Click="Button_Click"/>
+        <TextBox Name="tbxPath" HorizontalAlignment="Left" Height="21" Margin="19,32,0,0" TextWrapping="Wrap" Text="Lütfen fotoğraf seçiniz..." VerticalAlignment="Top" Width="310"/>
+        <Button Name="Donustur" Content="Dönüştür" HorizontalAlignment="Left" Margin="444,23,0,0" VerticalAlignment="Top" Width="157" AutomationProperties.Name="btnDonustur" Height="36" Click="Donustur_Click"/>
+        <ListBox Name="lbxOncekiIslemler"  HorizontalAlignment="Left" Height="76" Margin="101,102,0,0" VerticalAlignment="Top" Width="445"/>
+        <Label Content="Önceki işlemler" HorizontalAlignment="Left" Margin="101,77,0,0" VerticalAlignment="Top" Height="20" FontSize="9" Width="100"/>
+
+    </Grid>
+</Window>
